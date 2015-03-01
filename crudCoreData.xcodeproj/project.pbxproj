@@ -10,11 +10,12 @@
 		A61FF7831AA3962600888738 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A61FF7821AA3962600888738 /* main.m */; };
 		A61FF7861AA3962600888738 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A61FF7851AA3962600888738 /* AppDelegate.m */; };
 		A61FF7891AA3962600888738 /* crudCoreData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A61FF7871AA3962600888738 /* crudCoreData.xcdatamodeld */; };
-		A61FF78C1AA3962600888738 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A61FF78B1AA3962600888738 /* ViewController.m */; };
 		A61FF78F1AA3962600888738 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A61FF78D1AA3962600888738 /* Main.storyboard */; };
 		A61FF7911AA3962600888738 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A61FF7901AA3962600888738 /* Images.xcassets */; };
 		A61FF7941AA3962600888738 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A61FF7921AA3962600888738 /* LaunchScreen.xib */; };
 		A61FF7A01AA3962700888738 /* crudCoreDataTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A61FF79F1AA3962700888738 /* crudCoreDataTests.m */; };
+		A61FF7AB1AA399F100888738 /* MainTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A61FF7AA1AA399F100888738 /* MainTableViewController.m */; };
+		A61FF7AE1AA39C4E00888738 /* MyDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A61FF7AD1AA39C4E00888738 /* MyDetailViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,14 +35,16 @@
 		A61FF7841AA3962600888738 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A61FF7851AA3962600888738 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		A61FF7881AA3962600888738 /* crudCoreData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = crudCoreData.xcdatamodel; sourceTree = "<group>"; };
-		A61FF78A1AA3962600888738 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		A61FF78B1AA3962600888738 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		A61FF78E1AA3962600888738 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A61FF7901AA3962600888738 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		A61FF7931AA3962600888738 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		A61FF7991AA3962700888738 /* crudCoreDataTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = crudCoreDataTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A61FF79E1AA3962700888738 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A61FF79F1AA3962700888738 /* crudCoreDataTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = crudCoreDataTests.m; sourceTree = "<group>"; };
+		A61FF7A91AA399F100888738 /* MainTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTableViewController.h; sourceTree = "<group>"; };
+		A61FF7AA1AA399F100888738 /* MainTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTableViewController.m; sourceTree = "<group>"; };
+		A61FF7AC1AA39C4E00888738 /* MyDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyDetailViewController.h; sourceTree = "<group>"; };
+		A61FF7AD1AA39C4E00888738 /* MyDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyDetailViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,13 +88,15 @@
 			children = (
 				A61FF7841AA3962600888738 /* AppDelegate.h */,
 				A61FF7851AA3962600888738 /* AppDelegate.m */,
-				A61FF78A1AA3962600888738 /* ViewController.h */,
-				A61FF78B1AA3962600888738 /* ViewController.m */,
 				A61FF78D1AA3962600888738 /* Main.storyboard */,
 				A61FF7901AA3962600888738 /* Images.xcassets */,
 				A61FF7921AA3962600888738 /* LaunchScreen.xib */,
 				A61FF7871AA3962600888738 /* crudCoreData.xcdatamodeld */,
 				A61FF7801AA3962600888738 /* Supporting Files */,
+				A61FF7A91AA399F100888738 /* MainTableViewController.h */,
+				A61FF7AA1AA399F100888738 /* MainTableViewController.m */,
+				A61FF7AC1AA39C4E00888738 /* MyDetailViewController.h */,
+				A61FF7AD1AA39C4E00888738 /* MyDetailViewController.m */,
 			);
 			path = crudCoreData;
 			sourceTree = "<group>";
@@ -222,9 +227,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A61FF7AB1AA399F100888738 /* MainTableViewController.m in Sources */,
+				A61FF7AE1AA39C4E00888738 /* MyDetailViewController.m in Sources */,
 				A61FF7861AA3962600888738 /* AppDelegate.m in Sources */,
 				A61FF7891AA3962600888738 /* crudCoreData.xcdatamodeld in Sources */,
-				A61FF78C1AA3962600888738 /* ViewController.m in Sources */,
 				A61FF7831AA3962600888738 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
